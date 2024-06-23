@@ -77,7 +77,7 @@ class _SearchState extends State<Search> {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.red[100],
+        backgroundColor: Colors.white,
         appBar: AppBar(
           toolbarHeight: 100,
           backgroundColor: Colors.red,
@@ -105,26 +105,3 @@ class _SearchState extends State<Search> {
 
 
 
-  // @override
-  // void initState() {
-  //   getDocIDs();
-  //   super.initState();
-  // }
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _fetchUserData();
-  // }
-
-  // void _fetchUserData() {
-  //   final user = FirebaseAuth.instance.currentUser!;
-  //   final userId = user?.uid;
-
-  //   FirebaseFirestore.instance.collection('users').doc(userId).get().then((snapshot) {
-  //     final userData = snapshot.data();
-  //     if (userData != null) {
-  //       _nameController.text = userData['name'];
-  //       _emailController.text = userData['email'];
-  //     }
-  //   });
-  // }

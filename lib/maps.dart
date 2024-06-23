@@ -22,6 +22,7 @@ class _MapsState extends State<Maps> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("Google Maps"),backgroundColor: Colors.red,),
       body: SafeArea(
         child: GoogleMap(
           initialCameraPosition: _initialPosition,
@@ -33,3 +34,4 @@ class _MapsState extends State<Maps> {
     );
   }
 }
+

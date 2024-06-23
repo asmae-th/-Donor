@@ -68,7 +68,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red[100],
+      backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.red,
           title: Center(
@@ -98,7 +98,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                   child: Stack(
                     children: [
                       CircleAvatar(
-                        backgroundImage: AssetImage("Images/profile.jpg"),
+                        backgroundImage: AssetImage("Images/i.jpg"),
                         radius: 50,
                       ),
                     ],
@@ -113,6 +113,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                   Text(
                     user.email!,
                     textAlign: TextAlign.center,
+                    style: TextStyle(color: Colors.red),
                     // style: TextStyle()
                   ),
                   SizedBox(
@@ -123,7 +124,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                     padding: const EdgeInsets.only(left: 25),
                     child: Text(
                       "My details :",
-                      style: TextStyle(color: Colors.grey[600],fontSize: 19),
+                      style: TextStyle(color: Colors.red,fontSize: 19),
                     ),
                   ),
 
