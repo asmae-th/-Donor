@@ -61,15 +61,15 @@ blood_donation_app/
 
 | Blood Type | Image |
 |------------|--------|
-| A+         | ![A+](assets/images/A+.png) |
-| A-         | ![A-](assets/images/A-.png) |
-| B+         | ![B+](assets/images/B+.png) |
-| B-         | ![B-](assets/images/B-.png) |
-| AB+        | ![AB+](assets/images/AB+.png) |
-| AB-        | ![AB-](assets/images/AB-.png) |
-| O+         | ![O+](assets/images/o+.png) |
-| O-         | ![O-](assets/images/o-.png) |
-| Rare       | ![Rare](assets/images/Rare.png) |
+| A+         | ![A+](images/A+.png) |
+| A-         | ![A-](images/A-.png) |
+| B+         | ![B+](images/B+.png) |
+| B-         | ![B-](images/B-.png) |
+| AB+        | ![AB+](images/AB+.png) |
+| AB-        | ![AB-](images/AB-.png) |
+| O+         | ![O+](images/o+.png) |
+| O-         | ![O-](images/o-.png) |
+| Rare       | ![Rare](images/Rare.png) |
 
 ---
 
@@ -125,9 +125,9 @@ flutter run
 
 ## 📸 More Screens
 
-![Register](assets/images/regiter.png)  
-![Blood Hero](assets/images/bloodhero.png)  
-![Logo](assets/images/logo.png)
+![Register](images/regiter.png)  
+![Blood Hero](images/bloodhero.png)  
+![Logo](images/logo.png)
 
 ---
 
